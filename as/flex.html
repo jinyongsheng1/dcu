@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            border: red solid 1px;
+            display: flex;
+            justify-content: space-between;
+
+            flex-flow: column;
+        }
+        .sub{
+            width: 100%;
+            }
+        #d1{
+            height: 50px;
+            background-color: #5CB700;
+        }
+        #d2{
+            height: 50px;
+            background-color: aquamarine ;
+        }
+        #d3{
+            flex: 1;
+            background-color: blueviolet;
+        }
+        #d4{
+            height: 60px;
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="d1" class="sub"></div>
+    <div id="d2" class="sub"></div>
+    <div id="d3" class="sub"></div>
+    <div id="d4" class="sub"></div>
+</div>
+
+</body>
+</html>

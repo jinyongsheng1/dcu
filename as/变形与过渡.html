@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @keyframes play {
+            100%{
+                transform: rotate(360deg);
+
+            }
+
+        }
+        .container{
+            height: 300px;
+            width: 300px;
+            border: 0px solid red;
+            margin: 200px;
+            background-color: red;
+            overflow: hidden;
+            border-radius: 30%;
+        }
+        .container:hover{
+            animation: play 4s linear infinite ;
+        }
+
+        .sub{
+            height: 300px;
+            width: 300px;
+            background-color: aquamarine;
+            transform-origin: top;
+        }
+        .sub:hover{
+            animation: play 2s linear infinite reverse;
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="sub">
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>buy</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .border{
+            border: 1px solid red;
+        }
+        .container{
+            height: 270px;
+            width: 590px;
+            margin: 10px;
+            box-shadow: 0px 0px 10px gray;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        .img{
+            height: 270px;
+            width: 220px;
+            float:left;
+            background-size: 80% 60%;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 0px 0px 0px honeydew;
+            cursor: pointer;
+            transition: all 0.6s;
+        }
+        .img:hover{
+            transform: scale(1.2);
+        }
+
+        .ather{
+            height: 270px;
+            width: 366px;
+            float: right;
+        }
+        .title{
+            height: 60px;
+            width: 364px;
+            font-family: 微软雅黑;
+            font-size: 35px;
+            color: grey;
+        }
+        .detail{
+            height: 40px;
+            width: 364px;
+            color: gray;
+            font-family: 微软雅黑;
+            font-size: 15px;
+        }
+        .price{
+            height: 96px;
+            width: 364px;
+            line-height: 170px;
+            font-size: 15px;
+        }
+        .buy{
+            height: 70px;
+            width: 364px;
+        }
+        input{
+            height: 40px;
+            width: 80px;
+            color: white;
+            background-color: orange;
+            cursor: pointer;
+            transition: 0.6s;
+            border: 1px solid white;
+        }
+        input:hover{
+            transform: scale(1.1);
+        }
+        p1{
+            font-size: 20px;
+            color: red;
+        }
+        .change{
+            height: 300px;
+            width: 202px;
+            box-shadow: 0px 0px 10px 0px;
+            margin-left: 10px;
+            overflow: hidden;
+        }
+        .title1{
+            height: 51px;
+            width: 202px;
+        }
+        .detail{
+            height: 26px;
+            width: 202px;
+        }
+        .img1{
+            height: 220px;
+            width: 202px;
+            background-size: 80% 80%;
+            background-position: 0px;
+            position: relative;
+            background-repeat: no-repeat;
+        }
+        .change1{
+            height: 300px;
+            width: 402px;
+            margin-left: 10px;
+            background-color: dodgerblue;
+            position: absolute;
+            top: 586px;
+            box-shadow: 0px 0px 10px 0px;
+        }
+        .change1:hover{
+
+        }
+        .p1{
+            border-radius: 20px;
+            border: 3px solid white;
+            background-color: dodgerblue;
+        }
+        #b{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+ <div class="container" >
+     <div class="img" style="background-image: url(resources/img/dev/celwGZaacEO2I.jpg)">
+
+     </div>
+     <div class="ather">
+         <div class="title">Find X 8G+128G</div>
+         <div class="detail">双曲面全景屏 全隐藏式 3D摄像头</div>
+         <div class="price">预约价<p1>&yen4999</p1></div>
+         <div class="buy">
+             <form action="https://item.jd.com/7810832.html" target="_blank">
+                 <input type="submit" value="立即预约">
+             </form>
+         </div>
+     </div>
+ </div>
+ <div class="container" >
+     <div class="img" style="background-image: url(resources/img/dev/timg.jpg)">
+
+     </div>
+     <div class="ather">
+         <div class="title">荣耀note10 6G+64G</div>
+         <div class="detail">绝非浪得虚名</div>
+         <div class="price">预约价<p1>&yen9998</p1></div>
+         <div class="buy">
+             <form action="https://item.jd.com/8058010.html" target="_blank">
+                 <input type="submit" value="立即预约">
+             </form>
+         </div>
+     </div>
+ </div>
+ <div class="container" >
+     <div class="img" style="background-image: url(https://img10.360buyimg.com/img/s220x220_jfs/t20524/274/2297982081/129068/a3c297f3/5b4ee70eN186c7495.jpg!q80.webp)">
+
+     </div>
+     <div class="ather">
+         <div class="title">Apple MacBook Pro</div>
+         <div class="detail">性能一强再强</div>
+         <div class="price">预约价<p1>&yen14188</p1></div>
+         <div class="buy">
+             <form action="https://item.jd.com/8058010.html" target="_blank">
+                 <input type="button" value="立即预约">
+             </form>
+         </div>
+     </div>
+ </div>
+<div class="change">
+    <div class="title1 ">手机好店</div>
+    <div class="detail ">小米8新品上市</div>
+    <div class="img1" style="background-image: url(resources/img/5b2b4723N7bfc284e.png!q95.png)"></div>
+</div>
+<div class="change1">
+    <div class="title1 " id="b">手机好店</div>
+    <div class="detail " id="b">小米8新品上市</div>
+    <div class="go">
+        <input type="submit" class="p1" value="GO">
+    </div>
+    <div class="img1" style="background-image: url(resources/img/5b2b4723N7bfc284e.png!q95.png)"></div>
+
+
+</div>
+
+</body>
+</html>

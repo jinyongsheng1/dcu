@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .border{
+            border: px solid red;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        .contain{
+            height:600px;
+            width: 500px;
+            margin: 100px;
+            overflow-y: scroll;
+            background-image: url(img/40.jpg);
+            position: relative;
+        }
+        .container{
+            height:900px;
+            width: 500px;
+            margin: 0 auto;
+            overflow: hidden;
+            float: left;
+        }
+        .title{
+            height: 65px;
+            width: 500px;
+            background-color:darkgrey;
+            position: fixed;
+            z-index: 999;
+            color: #F2F2F2;
+            font-size: 30px;
+            text-align: center;
+            line-height: 65px;
+            margin-top: -50px;
+
+        }
+        h1{
+            line-height: 65px;
+        }
+        .sub{
+            height: 100px;
+            width: 300px;
+            margin-top:40px;
+            float: left;
+        }
+        #ather{
+            float: left;
+        }
+        #self{
+            float: right;
+            margin-top: 80px;
+        }
+        .face{
+            height: 60px;
+            width: 60px;
+            float: left;
+            margin-top: 25px;
+            border-radius: 50%;
+            float: left;
+        }
+        #selfface{
+            float: right;
+        }
+        .text{
+            height: 100px;
+            width: 220px ;
+            float: right;
+        }
+        #selftext{
+            float: left;
+        }
+        .name{
+            height: 30px;
+            width: 220px;
+            overflow: hidden;
+            line-height: 40px;
+            font-size: 13px;
+            font-weight: 500;
+            color: grey;
+        }
+        #selfname{
+            height: 30px;
+            width: 220px;
+            overflow: hidden;
+            line-height: 40px;
+            font-size: 13px;
+            color: grey;
+            text-align: right;
+        }
+        .say{
+            background-color:gainsboro;
+            border-radius: 15px;
+            word-wrap: break-word;
+            word-break: break-all;
+            min-height: 25px;
+            z-index: 2;
+
+            float: left;
+            padding-top: 5px;
+        }
+        #selfsay{
+            background-color: yellowgreen;
+            z-index: 2;
+            position: relative;
+
+
+            float: right;
+            text-indent: 0px;
+
+
+        }
+        /*#kuang{*/
+            /*height: 32px;*/
+            /*width: 32px;*/
+            /*margin-top: 10px;*/
+            /*margin-left: 2px;*/
+            /*background-color: gainsboro;*/
+            /*transform: rotate(45deg);*/
+            /*z-index: 1;*/
+        /*}*/
+        /*#selfkuang{*/
+            /*height: 32px;*/
+            /*width: 32px;*/
+            /*background-color: yellowgreen;*/
+            /*transform: rotate(45deg);*/
+            /*float: right;*/
+            /*margin-right: -1px;*/
+            /*margin-top: 10px;*/
+            /*z-index: 1;*/
+        /*}*/
+        .speek{
+            height: 55px;
+            width: 500px;
+            background-color: white;
+            position: fixed;
+            top: 700px;
+            float: bottom;
+
+        }
+        #aa{
+              height: 55px ;
+              width: 360px;
+              position: fixed;
+              top: 700px;
+              left:165px;
+          }
+        #bb{
+            height: 60px ;
+            width: 80px;
+            position: fixed;
+            top: 700px;
+            left:528px;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+<div class="contain border">
+   <div class="container border">
+       <br style="clear: both">
+       <div class="title" style="background-image: url(img/left-circle-fill.svg);background-position: left;background-repeat: no-repeat;background-size: 65px 65px;">大数据1班
+       </div>
+      <div class="sub border" id="ather">
+          <div class="face border" style="background-image: url(img/微信图片_20180731200349.jpg);background-size: cover">
+
+          </div>
+          <div class="text border">
+             <div class="name border">习近平</div>
+              <div id="kuang"></div>
+             <div class="say border">我是谁？
+
+             </div>
+          </div>
+      </div>
+      <div class="sub border" id="ather">
+           <div class="face border" style="background-image: url(img/微信图片_20180731200349.jpg);background-size: cover">
+           </div>
+           <div class="text border">
+              <div class="name  border">习近平</div>
+               <div id="kuang"></div>
+              <div class="say border"><img src="img/4934501486627131.jpg" alt="加载失败"></div>
+           </div>
+      </div>
+      <div class="sub border " id="ather">
+           <div class="face border" style="background-image: url(img/微信图片_20180731200349.jpg);background-size: cover"></div>
+           <div class="text border ">
+              <div class="name border">习近平</div>
+               <div id="kuang"></div>
+              <div class="say border" >
+                  sssssssssssssssssssssssssssssssssssssssssss
+              </div>
+           </div>
+      </div>
+      <div class="sub border" id="self">
+            <div class="face border" id="selfface" style="background-image: url(img/微信图片_20180731200401.jpg);background-size: cover"></div>
+            <div class="text border " id="selftext">
+                <div class="name border" id="selfname">靳永生</div>
+                <div id="selfkuang"></div>
+                <div class="say border" id="selfsay">QWERTYUI欧帕斯电饭锅和加快了爱我的所多哇所多挖大幅瓦斯的</div>
+            </div>
+      </div>
+  </div>
+    <div class="speek" style="background-image: url(img/语音.svg);background-repeat: no-repeat;background-size: 55px 55px"></div>
+    <input id="aa" type="text">
+    <input id="bb" type="submit" value="发送">
+
+</div>
+
+</body>
+</html>
